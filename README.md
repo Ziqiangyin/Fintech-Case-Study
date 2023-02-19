@@ -185,5 +185,15 @@ These technologies are appropriate for Quandl to utilize for additional product 
 
 - APIs: APIs are already a key part of Quandl's existing platform, and expanding their functionality and customization options can enable seamless integration with other financial software and platforms. This can help Quandl to broaden its customer base and increase its value proposition for existing customers.
 
+## Addendum 
+
+1 - [Quandl: A Wikipedia for Time Series Data] (https://blog.revolutionanalytics.com/2013/02/quandl-a-wikipedia-for-time-series-data.html)by Tammer Kamel
+2 - [Quandl: Financial, Economic and Alternative Data](https://demo.quandl.com/) 
+3 - [crunchbase](https://www.crunchbase.com/organization/quandl/company_financials)
+4 - [Datarade](https://datarade.ai/platforms/quandl)
+5 - [The Future of Big Data Analytics & Data Science: 5 Trends of Tomorrow]（https://www.montecarlodata.com/blog-the-future-of-big-data-analytics-and-data-science/）
+6 - [ChatGDP]（https://chat.openai.com/chat）
+
+
 ---
 ![quandl.jpeg](quandl.jpeg)
