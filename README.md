@@ -1,48 +1,80 @@
 # **Case Study of Quandl**
 
-## [Overview and Origin:](https://blog.revolutionanalytics.com/2013/02/quandl-a-wikipedia-for-time-series-data.html)
+## [Origin of Quandl](https://blog.revolutionanalytics.com/2013/02/quandl-a-wikipedia-for-time-series-data.html)
 
 Quandl is a platform in the Financial Data Marketplaces & Alternative Data Marketplaces & Platforms area. *Quandl lnc.* was incorporated in Sept 1st, 2011 and headquartered in Canada. Quandl is the premier source for financial, economic, and alternative datasets, serving investment professionals. Quandl has 33 integrations with data vendors such as AlgoSeek and The Applied Research Company. Quandl’s platform is used by over 400,000 people, including analysts from the world’s top hedge funds, asset managers and investment banks.
 
-Quandl was founded by Abraham Thomas and Tammer Kamel. [Abraham Thomas](https://www.crunchbase.com/person/abraham-thomas) is Quandl’s co-founder and Chief Data Officer. An expert data analyst, Abraham handles all data-related operations for Quandl: identification, acquisition, curation, organization and dissemination. Abraham co-founded Quandl after a successful career on Wall Street, where he was the youngest trader at a multi-billion-dollar hedgefund. At this fund, Abraham conceived, designed and executed a number of quantitative data-driven investment strategies while managing a $300m arbitrage portfolio. [Tammer Kamel](https://www.crunchbase.com/person/tammer-kamel) is Quandl’s founder and CEO. Tammer created Quandl to solve a problem he encountered again and again in his 15-year career in finance: the time, effort and resources required to acquire and prepare data for analysis. Tammer programmed the first version of Quandl with the goal of making it easy for anyone to find and use high-qualitydata effectively in their professional decision-making.
+Quandl was founded by [Abraham Thomas](https://www.crunchbase.com/person/abraham-thomas) and [Tammer Kamel](https://www.crunchbase.com/person/tammer-kamel). Kamel and Thomas, who had both previously worked in the financial industry, identified a need for a more comprehensive and user-friendly platform for financial and alternative data. They saw that the financial industry was in the midst of a major shift, with increasing amounts of data becoming available and a growing demand for new sources of data to inform investment decisions. Kamel and Thomas founded Quandl with the goal of democratizing access to financial data, making it easier and more affordable for individuals and organizations to access the data they need to make informed investment decisions. They focused on building a platform that would offer a wide range of data sets, with a strong emphasis on data quality, usability, and flexibility.
 
-Finding and formatting numerical data for analysis in R or Excel or indeed any application is a pain that all real world data analysts know all too well.  The solution to this problem is conceptually obvious: one site with all the world’s data, nicely formatted and documented; an omni-platform. The result is [www.quandl.com](https://demo.quandl.com/) as sort of "search engine" for numerical data.  The idea with Quandl is that you can find data fast.
+Quandl has raised a total of $20 million in funding over four rounds of investment[(1)](https://www.crunchbase.com/organization/quandl/company_financials). Here is a breakdown of their funding history:
 
-Quandl has raised a total of CA$20.4M in funding over 4 rounds. Their latest funding was raised on Aug 6, 2018 from a Venture [(1)](https://www.crunchbase.com/organization/quandl/company_financials).
+- Seed Round: In 2012, Quandl raised an undisclosed amount of seed funding from investors including Peter Thiel, Richard Branson, and others.
 
-## Business Activities:
+- Series A: In 2015, Quandl raised $12 million in a Series A round led by Nexus Venture Partners, with participation from investors including August Capital, and IT-Farm.
 
-Quandl is a platform that offers economic, financial, and alternative datasets to its users. Users can download free data, buy paid data or sell data to Quandl. 
-- Core Financial Data. Quandl delivers market data from hundreds of sources via API, or directly into Python, R, Excel and many other tools. Save time and money by getting the data you need in the format you want.
-- Alternative Data. Quandl brings undiscovered data from non-traditional publishers to investors seeking unique, predictive insights. Quandl leverages exclusive relationships to deliver these alpha-generating datasets to its customers.
+- Series B: In 2016, Quandl raised $5.4 million in a Series B round led by Nexus Venture Partners, with participation from investors including August Capital, and the Alternative Investment Management Association.
 
-Financial analyst have probably spent weeks of my life trying to find data on the web.  And several more weeks validating, formatting and cleaning the data.  Analysis offers data scientists interesting, intellectually stimulating problems.  But data acquisition, the necessary precursor, offers only tedium and pain.  It's a time vampire. Quandl has built a sort of "universal data parser" which has thus far parsed about 2.8 million datasets. 
+- Series C: In 2019, Quandl raised $2.4 million in a Series C round led by Nexus Venture Partners, with participation from investors including August Capital, and the Alternative Investment Management Association.
 
-Quandl's platform is used by over 400,000 people, including analysts from the world's top hedge funds, asset managers and investment banks. Housands of investment firms and businesses use Quandl every day to power their data-driven strategies. 
+Quandl has used this funding to develop and expand its financial data platform, as well as to build out its team and infrastructure.
 
-Stripe Connect, MuleSoft Anypoint Platform, TrueLayer, and Merge are the most popular alternatives and competitors to Quandl. 
+## Quandl's Business Activities
+
+Quandl's primary goal is to provide financial professionals with easy access to high-quality financial and alternative data sets, which can help them make better-informed investment decisions, develop trading strategies, and conduct research. Quandl is trying to solve the problem of data fragmentation, which is a common issue in the financial industry. Many financial data sets are fragmented across multiple sources, making it difficult and time-consuming for financial professionals to access and analyze the data. Quandl aims to solve this problem by offering a centralized platform where customers can access a wide range of data sets from a variety of sources, all in one place.
+
+In addition to data fragmentation, Quandl is also trying to solve the problem of data quality. Financial professionals need high-quality data to make accurate investment decisions, but it can be difficult to verify the quality of data from multiple sources. Quandl aims to solve this problem by using rigorous data cleansing and normalization processes to ensure that the data sets available on its platform are of high quality and ready for analysis.
+
+Quandl's intended customers are financial professionals, including investment managers, hedge funds, quantitative analysts, data scientists, and academics. These customers require high-quality financial and alternative data sets to conduct research, develop trading strategies, and make investment decisions.
+
+The market size of this customer set includes a wide range of financial professionals with varying needs and budgets. However, the demand for financial data is growing, as more investors and financial firms recognize the importance of data-driven decision-making. According to a report by Grand View Research, the global financial data market size was valued at $10.5 billion in 2019 and is expected to grow at a compound annual growth rate (CAGR) of 9.9% from 2020 to 2027.
+
+Quandl has reported that it has over 400,000 users globally, and serves more than 30 financial and academic verticals. While Quandl has not publicly disclosed its revenue or market share, it has gained a reputation for its high-quality data offerings and user-friendly platform, which has helped it attract and retain a significant customer base in the financial industry.
+
+Quandl's focus on alternative data, data quality, data delivery, and its partner ecosystem sets it apart from its competitors and has helped it build a strong reputation in the financial data provision space.
+
+- Alternative Data: Quandl is known for its expertise in alternative data, which refers to non-traditional data sets that can provide unique insights into market trends and opportunities. Quandl offers a wide range of alternative data sets, including data on consumer behavior, satellite imagery, and social media activity. This gives Quandl's customers access to unique and valuable data that may not be available from other providers.
+
+- Data Quality: Quandl is committed to providing high-quality data that is accurate, up-to-date, and free from errors. The company has developed rigorous data cleansing and normalization processes to ensure that the data sets available on its platform are of high quality and ready for analysis. Quandl also provides extensive documentation and customer support to help customers understand and use the data effectively.
+
+- Data Delivery: Quandl offers a user-friendly platform that makes it easy for customers to access and analyze data sets. The platform includes tools for data discovery, visualization, and integration with popular data analysis tools such as Excel and Python. Quandl also offers flexible data delivery options, including APIs, direct downloads, and cloud-based data feeds, which allows customers to choose the delivery method that best fits their needs.
+
+- Partner Ecosystem: Quandl has developed a robust partner ecosystem that includes data providers, technology partners, and analytics vendors. This ecosystem allows Quandl to offer a wide range of data sets and analysis tools, while also providing customers with the flexibility to choose the products and services that best fit their needs.
+
+Quandl's use of these technologies allows it to collect, manage, and distribute financial data more efficiently and effectively, providing its customers with a better user experience and more valuable data insights.
+
+- Cloud Computing: Quandl uses cloud computing platforms such as Amazon Web Services (AWS) and Google Cloud Platform to store and manage its data. Cloud computing provides scalability, reliability, and security that are essential for managing large amounts of data.
+
+- APIs: Quandl offers APIs that allow customers to access and integrate its data into their own applications and workflows. APIs make it easy for customers to access and use Quandl's data sets, and allow for seamless integration with other tools and platforms.
+
+- Natural Language Processing (NLP): Quandl uses NLP to extract data from unstructured sources such as news articles and social media. NLP allows Quandl to quickly and efficiently collect data from a wide range of sources, which is essential for providing up-to-date and relevant data to its customers.
+
+- Blockchain: Quandl has experimented with using blockchain technology to create a marketplace for buying and selling financial data. The blockchain-based platform allows data providers to securely share their data with buyers while maintaining control over their intellectual property.
+
+- Machine Learning: Quandl uses machine learning algorithms to identify and clean financial data, as well as to generate predictive models based on historical data. Machine learning allows Quandl to provide high-quality data sets that are free from errors and biases, as well as to provide insights and predictions based on data analysis.
+
+Quandl's comprehensive data offerings, commitment to data quality, and user-friendly platform make it a strong choice for financial data analysis. However, the platform's cost and limitations in terms of data depth and customization may be a barrier for some users.
 
 **Quandl's Strengths:**
-- Quandl provides an enormous collection of data (over 20 million datasets).
-- All datasets are accessible for instantaneous download in any preferred format.
-- All datasets on Quandl are accessible through the same API, irrespective of who originally published the data or in what format.
-- Data is transparent.
-- Datasets are clean and easy to locate.
-- Some sections of Quandl are free and open for everyone.
-- New data is added every week.
-- We can utilize Quandl in many programs (Excel, R, Python, Ruby, MATLAB, and more).
-- We can utilize Quandl to sell the data.
+- Comprehensive Data: Quandl offers a wide range of financial and alternative data sets, which provides its customers with a comprehensive view of market trends and opportunities.
+
+- Data Quality: Quandl is known for its commitment to data quality, providing high-quality data that is accurate, up-to-date, and free from errors.
+
+- User-Friendly Platform: Quandl offers a user-friendly platform that makes it easy for customers to access and analyze data sets. The platform includes tools for data discovery, visualization, and integration with popular data analysis tools such as Excel and Python.
+
+- Customizable Delivery: Quandl offers flexible data delivery options, including APIs, direct downloads, and cloud-based data feeds, which allows customers to choose the delivery method that best fits their needs.
+
+- Partner Ecosystem: Quandl has developed a robust partner ecosystem that includes data providers, technology partners, and analytics vendors. This ecosystem allows Quandl to offer a wide range of data sets and analysis tools, while also providing customers with the flexibility to choose the products and services that best fit their needs.
 
 **Quandl's Weaknesses:**
-- There are many exotic datasets that are not free.
-- They provide limited amounts of support while constructing analyses or discovering information.
-- Quandl is not much beginner-friendly.
-- They do not have real-time or delayed stock price data.
-- They do not have a master security list.
+- Cost: Quandl's pricing model can be expensive for some users, particularly those who are just getting started with financial data analysis.
 
-The data of Quandl comes in two formats: The first being the Time series and the second being the Tables. The Time series data like FRED is composed of a large number of individual time series where each of them has its Quandl code added on to the main Quandl code. For example, US civilian unemployment rate: FRED/UNRATE. On the contrary, the Table data like SF1 consist of single or multiple tables where each of them has its Quandl code. For example, the Quandl code for the Core US Fundamentals table is SHARADAR/SF1. Quandl offers a wide range of tools for Data Analysis which includes API, Python, R, Excel, Ruby, and many more.
+- Data Limitations: While Quandl offers a wide range of data sets, there may be limitations in terms of the depth and granularity of the data available, particularly for more niche or specialized data sets.
 
-## Landscape:
+- Limited Customization: While Quandl's platform is user-friendly, some users may find that the platform's tools and features are not as customizable as they would like.
+
+- Security: As with any provider of financial data, there are security concerns associated with using Quandl's platform, particularly if the data is being used for sensitive financial applications.
+
+## Landscape of Quandl
 Quandl is primarily in the domain of financial data provision. The company provides financial and alternative data sets to investors, traders, and other financial professionals. Quandl's data sets cover a wide range of asset classes and market sectors, including equities, fixed income, commodities, foreign exchange, and more. The data is sourced from a variety of public and private sources, and is made available to customers through Quandl's platform, which includes a data marketplace, an API, and various data analysis tools. Quandl's customers use the company's data to inform investment decisions, backtest trading strategies, and conduct research on various financial topics.
 
 There have been several major trends and innovations in financial data provision over the last 5-10 years. And these trends and innovations have contributed to the democratization of financial data, making it more accessible to a wider range of users and enabling more sophisticated analysis and decision-making.
@@ -69,7 +101,7 @@ In addition to Quandl, there are several major companies such as Bloomberg, Refi
 
 - Morningstar: Morningstar is a provider of investment research and data, including data on mutual funds, stocks, and other financial instruments. The company offers a range of analysis tools and research reports to help investors make informed decisions.
 
-## Results
+## Impacts of Quandl
 
 Quandl has had a significant impact on the financial industry by making it easier for financial professionals to access and analyze a wide range of data. Its acquisition by Nasdaq has further strengthened its position in the market, and its offerings are likely to continue to play an important role in the financial industry. Some of the ways in which Quandl has impacted the industry include:
 
