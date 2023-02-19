@@ -152,3 +152,4 @@ NLP: NLP can be used to extract insights from unstructured data sources, such as
 APIs: APIs are already a key part of Quandl's existing platform, and expanding their functionality and customization options can enable seamless integration with other financial software and platforms. This can help Quandl to broaden its customer base and increase its value proposition for existing customers.
 
 Overall, these technologies are appropriate for Quandl to utilize for additional product or service offerings because they can help the company to improve its existing offerings, differentiate itself from competitors, and provide customers with more valuable and customizable solutions. Additionally, these technologies are widely used and well-established in the financial industry, making them a natural fit for Quandl's core business.
+
