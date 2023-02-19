@@ -1,8 +1,8 @@
 # **Case Study of Quandl**
 
-## [Quandl: A Wikipedia for Time Series Data](https://blog.revolutionanalytics.com/2013/02/quandl-a-wikipedia-for-time-series-data.html)
+## [Overview and Origin](https://blog.revolutionanalytics.com/2013/02/quandl-a-wikipedia-for-time-series-data.html)
 
-*Quandl lnc.* was incorporated in Sept 1st, 2011. Quandl is the premier source for financial, economic, and alternative datasets, serving investment professionals. Quandl’s platform is used by over 400,000 people, including analysts from the world’s top hedge funds, asset managers and investment banks.
+Quandl is a platform in the Financial Data Marketplaces & Alternative Data Marketplaces & Platforms area. *Quandl lnc.* was incorporated in Sept 1st, 2011 and headquartered in Canada. Quandl is the premier source for financial, economic, and alternative datasets, serving investment professionals. Quandl has 33 integrations with data vendors such as AlgoSeek and The Applied Research Company. Quandl’s platform is used by over 400,000 people, including analysts from the world’s top hedge funds, asset managers and investment banks.
 
 Quandl was founded by Abraham Thomas and Tammer Kamel. [Abraham Thomas](https://www.crunchbase.com/person/abraham-thomas) is Quandl’s co-founder and Chief Data Officer. An expert data analyst, Abraham handles all data-related operations for Quandl: identification, acquisition, curation, organization and dissemination. Abraham co-founded Quandl after a successful career on Wall Street, where he was the youngest trader at a multi-billion-dollar hedgefund. At this fund, Abraham conceived, designed and executed a number of quantitative data-driven investment strategies while managing a $300m arbitrage portfolio. [Tammer Kamel](https://www.crunchbase.com/person/tammer-kamel) is Quandl’s founder and CEO. Tammer created Quandl to solve a problem he encountered again and again in his 15-year career in finance: the time, effort and resources required to acquire and prepare data for analysis. Tammer programmed the first version of Quandl with the goal of making it easy for anyone to find and use high-qualitydata effectively in their professional decision-making.
 
@@ -12,15 +12,33 @@ Quandl has raised a total of CA$20.4M in funding over 4 rounds. Their latest fun
 
 ## Business Activities:
 
-* What specific financial problem is the company or project trying to solve?
+Quandl is a platform that offers economic, financial, and alternative datasets to its users. Users can download free data, buy paid data or sell data to Quandl.
 
 Financial analyst have probably spent weeks of my life trying to find data on the web.  And several more weeks validating, formatting and cleaning the data.  Analysis offers data scientists interesting, intellectually stimulating problems.  But data acquisition, the necessary precursor, offers only tedium and pain.  It's a time vampire. Quandl has built a sort of "universal data parser" which has thus far parsed about 2.8 million datasets. 
 
-* Who is the company's intended customer?  Is there any information about the market size of this set of customers?
+Quandl's platform is used by over 400,000 people, including analysts from the world's top hedge funds, asset managers and investment banks. Housands of investment firms and businesses use Quandl every day to power their data-driven strategies. 
 
-* What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
+Stripe Connect, MuleSoft Anypoint Platform, TrueLayer, and Merge are the most popular alternatives and competitors to Quandl. 
 
-* Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing–– you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
+**Quandl's Strengths:**
+- Quandl provides an enormous collection of data (over 20 million datasets).
+- All datasets are accessible for instantaneous download in any preferred format.
+- All datasets on Quandl are accessible through the same API, irrespective of who originally published the data or in what format.
+- Data is transparent.
+- Datasets are clean and easy to locate.
+- Some sections of Quandl are free and open for everyone.
+- New data is added every week.
+- We can utilize Quandl in many programs (Excel, R, Python, Ruby, MATLAB, and more).
+- We can utilize Quandl to sell the data.
+
+**Quandl's Weaknesses:**
+- There are many exotic datasets that are not free.
+- They provide limited amounts of support while constructing analyses or discovering information.
+- Quandl is not much beginner-friendly.
+- They do not have real-time or delayed stock price data.
+- They do not have a master security list.
+
+The data of Quandl comes in two formats: The first being the Time series and the second being the Tables. The Time series data like FRED is composed of a large number of individual time series where each of them has its Quandl code added on to the main Quandl code. For example, US civilian unemployment rate: FRED/UNRATE. On the contrary, the Table data like SF1 consist of single or multiple tables where each of them has its Quandl code. For example, the Quandl code for the Core US Fundamentals table is SHARADAR/SF1. Quandl offers a wide range of tools for Data Analysis which includes API, Python, R, Excel, Ruby, and many more.
 
 ## Landscape:
 
