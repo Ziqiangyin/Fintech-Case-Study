@@ -153,3 +153,4 @@ APIs: APIs are already a key part of Quandl's existing platform, and expanding t
 
 Overall, these technologies are appropriate for Quandl to utilize for additional product or service offerings because they can help the company to improve its existing offerings, differentiate itself from competitors, and provide customers with more valuable and customizable solutions. Additionally, these technologies are widely used and well-established in the financial industry, making them a natural fit for Quandl's core business.
 
+![quandl.jpeg](quandl.jpeg)
