@@ -191,8 +191,8 @@ These technologies are appropriate for Quandl to utilize for additional product 
 - 2-[Quandl: Financial, Economic and Alternative Data](https://demo.quandl.com/)
 - 3-[Crunchbase](https://www.crunchbase.com/organization/quandl/company_financials)
 - 4-[Datarade](https://datarade.ai/platforms/quandl)
-- 5-[The Future of Big Data Analytics & Data Science: 5 Trends of Tomorrow](https://www.montecarlodata.com/blog-the-future-of-big-data-analytics-and-data-science/)
-- 6-[ChatGDP](https://chat.openai.com/chat)
+- 5-[The Future of Big Data Analytics & Data Science: 5 Trends of Tomorrow](https://www.montecarlodata.com/blog-the-future-of-big-data-analytics-and-data-science/) by Michael Segner
+- 6-[ChatGPT](https://chat.openai.com/chat)
 
 ---
 ![quandl.jpeg](quandl.jpeg)
